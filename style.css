@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(247, 247, 247, 0.894);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid grey;
+  width: fit-content;
+  padding: 50px 50px 30px;
+  margin: 30px auto 15px;
+  text-align: center;
+}
+
+.ins-text {
+  margin-bottom: 30px;
+}
+.ins-text img {
+  width: 230px;
+}
+
+.box1,
+.box2 {
+  background-color: rgba(247, 247, 247, 0.908);
+  width: 340px;
+  margin-bottom: 10px;
+  padding: 14px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.box3 {
+  width: 340px;
+  margin: 13px 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: #0097f1;
+  border-radius: 5px;
+  border: 1px solid grey;
+  color: white;
+  padding: 9px;
+}
+.box3:hover {
+  background-color: rgb(164, 215, 251);
+  cursor: pointer;
+}
+
+.or {
+  margin: auto;
+  position: relative;
+  width: 320px;
+  height: auto;
+  padding: 10px;
+  /* border:solid 1px red; */
+  display: flex;
+  justify-content: center;
+}
+.or::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0.5px;
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 0;
+}
+.or h4 {
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  padding: 0 30px;
+  font-weight: 300;
+  font-size: large;
+}
+
+.logo-face-div {
+  margin: 25px auto;
+}
+
+.fa-brands {
+  font-size: 25px;
+  color: rgb(43, 61, 114);
+  vertical-align: middle;
+}
+.with-face {
+  vertical-align: middle;
+  padding: 7px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(43, 61, 114);
+}
+.with-face:active {
+  color: rgb(164, 215, 251);
+}
+
+.forget-pass {
+  color: rgb(43, 61, 114);
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.forget-pass {
+  cursor: pointer;
+}
+.forget-pass:active {
+  color: rgb(164, 215, 251);
+}
+.div-register {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid grey;
+  width: 442px;
+  padding: 33px;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.div-register a {
+  color: #0097f1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.div-register a:active {
+  color: rgb(164, 215, 251);
+  background-color: transparent;
+}
+.down-text {
+  margin: 30px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.store {
+  text-align: center;
+}
+.store-img {
+  width: 180px;
+}
+.store-img:hover {
+  cursor: pointer;
+}
+.store-img:active {
+  filter: blur(1px);
+}
